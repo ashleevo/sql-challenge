@@ -1,1 +1,2 @@
 # sql-challenge
+This project involved uploading different elements of employee data onto a SQL database with respective tables created for each file. Then, different queries were conducted for teach table to find specific information about each employee or specific company information. Resources to complete this assignment included course content from the University of California Berkeley Data Analytics Program.
