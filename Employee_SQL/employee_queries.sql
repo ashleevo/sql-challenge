@@ -12,7 +12,7 @@ WHERE hire_date BETWEEN '01/01/1986' AND '12/31/1986'
 ORDER BY hire_date ASC;
 
 --List the managers department number, department name, the manager's employee number, last name, first name.
-SELECT m.dept_no, d.dept_name, m.emp_no,e.last_name, e.first_name
+SELECT m.dept_no, d.dept_name, m.emp_no, e.last_name, e.first_name
 FROM dept_manager m
 JOIN employees e 
 ON m.emp_no = e.emp_no
